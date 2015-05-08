@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="doktor.bog.leaeng.Edit_Voc_Activity">
+
+    <item
+        android:id="@+id/action_accept"
+        android:icon="@drawable/ic_action_accept"
+        android:title="@string/action_accept"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_discard"
+        android:icon="@drawable/ic_action_discard"
+        android:title="@string/delate"
+        app:showAsAction="always"/>
+</menu>

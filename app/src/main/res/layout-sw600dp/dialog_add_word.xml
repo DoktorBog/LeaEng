@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginBottom="8dp"
+    >
+
+
+
+    <EditText
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:maxLines = "1"
+        android:inputType="textPersonName"
+        android:layout_weight="0.99"
+        android:hint="your word"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/checkBox"
+        android:layout_alignParentTop="true" />
+
+
+
+    <Button
+
+        android:layout_width="108dp"
+        android:layout_height="50dp"
+        android:text="@string/addButton"
+        android:id="@+id/button"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#40A89A"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+
+        android:layout_width="275dp"
+        android:layout_height="match_parent"
+        android:id="@+id/editText2"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:hint="translate"
+        android:layout_alignBottom="@+id/checkBox"
+        android:layout_below="@+id/editText"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/auto_translate"
+        android:id="@+id/checkBox"
+        android:textSize="11dp"
+        android:checked="true"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/button" />
+
+</RelativeLayout>

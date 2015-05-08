@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="doktor.bog.leaeng.NavagationDrawerFragment"
+    android:background="#EEE">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ndf_adapter_listView"
+        android:layout_centerHorizontal="true"
+        android:dividerHeight="0.75dp"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/button4"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+
+        android:text="new vocabulary"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#40A89A"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ADD VOCABULARY"
+        android:id="@+id/textV10"
+        android:layout_centerVertical="true"
+        android:textColor="@color/primary"
+        android:textSize="25dp"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

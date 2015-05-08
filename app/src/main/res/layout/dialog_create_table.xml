@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:hint="name" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="51dp"
+            android:id="@+id/spinner"
+            android:entries="@array/langList"/>
+
+        <Spinner
+            android:layout_width="104dp"
+            android:layout_height="51dp"
+            android:id="@+id/spinner2"
+            android:entries="@array/langList"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Create"
+            android:id="@+id/btL"
+            android:layout_gravity="right"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#40A89A"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"/>
+    </LinearLayout>
+
+</LinearLayout>
